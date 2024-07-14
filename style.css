@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	align-content: space-around;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+
+.article2 {
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 2%;
+}
+
+img {
+	border-radius: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	width: 35%;
+
+}
+
+button {
+	background-color: blueviolet;
+	border-radius: 8px;
+	padding: 1%;
+	color: aliceblue;
+
+}
+
+button:hover 
+{background-color: lightblue;}
+
+footer {
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+}

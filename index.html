@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">          
+        <h1>Моя галерея</h1> 
+      </header>
+      <div class="content">
+        <main class="main-container">
+          <div class="main-elements">
+            <article class="article1"><img id="image" src="./assets/firstCat.jpg" alt="cat">
+            </article>
+            <article class="article2">
+              <button onclick="changeImagePrevious()">Назад</button>
+              <button onclick="changeImageNext()">Вперед</button>
+            </article>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <button onclick="calculateTotalPrice()">Узнать стоимость</button>
+        <h2 id="h2"></h2>
+      </footer>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
