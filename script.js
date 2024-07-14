@@ -9,26 +9,26 @@ console.log(image.src);
 
 function changeImageNext() {
     
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/firstCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/firstCat.jpg") {
         image.src = "./assets/secondCat.jpg";
     } else
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/secondCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/secondCat.jpg") {
         image.src = "./assets/thirdCat.jpg";
     } else
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/thirdCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/thirdCat.jpg") {
         image.src = "./assets/firstCat.jpg";
     }
     
 
 }
 function changeImagePrevious() {
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/firstCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/firstCat.jpg") {
             image.src = "./assets/thirdCat.jpg";
     } else
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/secondCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/secondCat.jpg") {
             image.src = "./assets/firstCat.jpg";
     } else
-    if (image.src == "http://127.0.0.1:5500/ITGIRLSSCHOOL/week10/assets/thirdCat.jpg") {
+    if (image.src == "https://anseka.github.io/hw_week10/assets/thirdCat.jpg") {
             image.src = "./assets/secondCat.jpg";
     }
     }
